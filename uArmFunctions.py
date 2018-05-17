@@ -69,7 +69,6 @@ def drawNought(uArm, whichSquare):
       6|7|8    '''
 
     #work out starting position based on which square:
-    #(These are wrong... needs work!)
     if whichSquare == 0:
         x=150
         y=0
@@ -109,7 +108,7 @@ def drawNought(uArm, whichSquare):
     sendGCode(uArm, "G0 Z0")     #pen down
     sendGCode(uArm, "G91")       #switch to relative move mode
 
-    #draw the nought  (needs more work here)
+    #draw the nought
     sendGCode(uArm, "G0 Y5")
     sendGCode(uArm, "G0 X5 Y5")
     sendGCode(uArm, "G0 X5 ")
@@ -121,4 +120,6 @@ def drawNought(uArm, whichSquare):
 
     sendGCode(uArm, "G90")       #switch back to absolute mode
     sendGCode(uArm, "G0 Z50")    #pen up
+
+
 
