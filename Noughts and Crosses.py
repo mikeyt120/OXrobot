@@ -50,6 +50,9 @@ def drawMove(player, position):
     print("Drawing", player, "in position", position)
     if player == 'O':
         uArmFunctions.drawNought(uArm, position)
+    if player == 'X':
+        uArmFunctions.drawCross(uArm, position)
+        
 
 def findLastMove(brd):
     
