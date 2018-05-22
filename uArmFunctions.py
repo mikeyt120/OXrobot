@@ -51,10 +51,9 @@ def sendGCode(uArm, gCode):
     print("Received: ", wait4Response(uArm, 20))   #wait for response
     print(getResponse(uArm))                       #soak up any extra chars
 
-
 def goHome(uArm):
     '''Puts the uArm into the home position'''
-    sendGCode(uArm, "G0 X150 Y0 Z0")    #pen up (if not already up)
+    sendGCode(uArm, "G0 X150 Y0 Z0 F20000")    #pen up (if not already up)
     
 def drawBoard(uArm):
     '''Draws the board'''
@@ -185,7 +184,7 @@ def drawCross(uArm, whichSquare):
 
 
     sendGCode(uArm, "G0 Z50")    #pen up (if not already up)
-    sendGCode(uArm, "G0 X" + str(x) + " Y"+ str(y))   #got to the starting location
+    sendGCode(uArm, "G0 X" + str(x) + " Y"+ str(y))   #go to the starting location
     
     sendGCode(uArm, "G91")       #switch to relative move mode
     sendGCode(uArm, "G0 X5 Y5")
@@ -205,4 +204,30 @@ def drawCross(uArm, whichSquare):
     sendGCode(uArm, "G90")       #switch back to absolute mode
     sendGCode(uArm, "G0 Z50")    #pen up
 
+def drawWinLine(uArm, winLine):
+    '''Draws a line through the winning positions
+       Parameters: uArm - the robot arm to do the drawing
+                   winLine - a string representing the positions to draw through
+                   eg: "012" or "248" or "147"
+    '''
+    
+    sendGCode(uArm, "G0 Z50")    #pen up (if not already up)
+    
+    if winLine == "012":
+        #put some code to draw a line through "012"
+        sendGCode(uArm, "G0 X160 Y0")
+        sendGCode(uArm, "G0 Z0")
+        sendGCode(uArm, "G0 X160 Y75")
+        
+    if winLine == "258":
+        #puts some code to draw a line through "345"  
+        sendGCode(uArm, "G0 X150 Y60")
+        sendGCode(uArm, "G0 Z0")
+        sendGCode(uArm, "G0 X220 Y60")
+        
+    
+    #need code for the following winLines:  012, 345, 678, 036, 147, 258, 048, 246
+    
+    sendGCode(uArm, "G0 Z50")    #pen up
+        
 

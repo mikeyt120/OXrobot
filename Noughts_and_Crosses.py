@@ -112,6 +112,45 @@ def humanMove(brd):
                 printBrd(brd)
     return newBrd
 
+def altIsGameWon(brd):
+    
+    global winLine
+    
+    for player in "OX":
+        if brd[0]==player and brd[1]==player and brd[2]==player:
+            winLine = "012"
+            return player
+        if brd[3]==player and brd[4]==player and brd[5]==player:
+            winLine = "345"
+            return player
+        if brd[6]==player and brd[7]==player and brd[8]==player:
+            winLine = "678"
+            return player
+        if brd[0]==player and brd[3]==player and brd[6]==player:
+            winLine = "036"
+            return player
+        if brd[1]==player and brd[4]==player and brd[7]==player:
+            winLine = "147"
+            return player
+        if brd[2]==player and brd[5]==player and brd[8]==player:
+            winLine = "258"
+            return player
+        if brd[0]==player and brd[4]==player and brd[8]==player:
+            winLine = "048"
+            return player
+        if brd[2]==player and brd[4]==player and brd[6]==player:
+            winLine = "246"
+            return player
+
+    #no winner, so check for a draw (board has no empty spaces)
+    if brd[:9].count(" ")==0:
+        return "D"
+
+    #If there's no winner, and no draw, the game is still underway:
+    return "N"
+
+
+
 def isGameWon(brd):
     """ Check to see if the game has been won:
         Returns winner: 'X', 'O' or 'D' (Draw) or 'N' (no result yet)
@@ -373,6 +412,7 @@ gameCount=0                 #How many games have been played? (how experienced i
 computerGoesFirst=False     #who will go first next game?
 computersTurn=False         #keeps track of who's turn it is during a game
 lastDrawnBoard="         "  #This keeps track of which Os and Xs have already been drawn, so the program knows what to draw
+winLine="000"               #the line to draw after a won game
 
 loadExperience()            #if an experience file called 'experience.txt' exists in the program directory, load it!
 uArm=uArmFunctions.openUArm('/dev/ttyACM0')
@@ -413,10 +453,11 @@ while True:
     
     #when the game is over, declare the winner
     print("")
-    gameResult = isGameWon(board)
+    gameResult = altIsGameWon(board)
     if gameResult=="D":
         print("The game was a draw")
     else:
+        uArmFunctions.drawWinLine(uArm, winLine)
         if computersTurn==True:              #if the human won, the board still needs to be displayed
             printBrd(board)
         print(gameResult, "wins!")
