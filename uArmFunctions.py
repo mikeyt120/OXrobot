@@ -52,11 +52,32 @@ def sendGCode(uArm, gCode):
     print(getResponse(uArm))                       #soak up any extra chars
 
 
-#==============================================================
-#    NEW FUNCTION - this needs work
-#      Need to make the nought smoother... make it more like a circle than a square
-#      Need to add correct starting positions for squares 0-8 
-#==============================================================
+def goHome(uArm):
+    '''Puts the uArm into the home position'''
+    sendGCode(uArm, "G0 X150 Y0 Z0")    #pen up (if not already up)
+    
+def drawBoard(uArm):
+    '''Draws the board'''
+    sendGCode(uArm, "G0 X150 Y0 Z10")  
+    sendGCode(uArm, "G0 X150 Y25 Z10")
+    sendGCode(uArm, "G0 X150 Y25 Z0")
+    sendGCode(uArm, "G0 X225 Y25 Z0")
+    sendGCode(uArm, "G0 X225 Y25 Z10")
+    sendGCode(uArm, "G0 X200 Y0 Z10")
+    sendGCode(uArm, "G0 X200 Y0 Z0")
+    sendGCode(uArm, "G0 X200 Y75 Z0")
+    sendGCode(uArm, "G0 X200 Y075 Z10")
+    sendGCode(uArm, "G0 X225 Y50 Z10")
+    sendGCode(uArm, "G0 X225 Y50 Z0")
+    sendGCode(uArm, "G0 X150 Y50 Z0")
+    sendGCode(uArm, "G0 X150 Y50 Z10")
+    sendGCode(uArm, "G0 X175 Y75 Z10")  
+    sendGCode(uArm, "G0 X175 Y75 Z0")
+    sendGCode(uArm, "G0 X175 Y0 Z0")
+    sendGCode(uArm, "G0 X175 Y0 Z10")
+    sendGCode(uArm, "G0 X150 Y0 Z10")
+    sendGCode(uArm, "G0 X150 Y0 Z10")
+    
 def drawNought(uArm, whichSquare):
     '''Draws a nought at the position on the board specified by "whichSquare")
     eg: drawNought(1) draws a nought in square 1
@@ -69,7 +90,6 @@ def drawNought(uArm, whichSquare):
       6|7|8    '''
 
     #work out starting position based on which square:
-    #(These are wrong... needs work!)
     if whichSquare == 0:
         x=150
         y=0
@@ -109,7 +129,7 @@ def drawNought(uArm, whichSquare):
     sendGCode(uArm, "G0 Z0")     #pen down
     sendGCode(uArm, "G91")       #switch to relative move mode
 
-    #draw the nought  (needs more work here)
+    #draw the nought
     sendGCode(uArm, "G0 Y5")
     sendGCode(uArm, "G0 X5 Y5")
     sendGCode(uArm, "G0 X5 ")
@@ -184,4 +204,5 @@ def drawCross(uArm, whichSquare):
 
     sendGCode(uArm, "G90")       #switch back to absolute mode
     sendGCode(uArm, "G0 Z50")    #pen up
+
 
