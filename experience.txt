@@ -1,44 +1,77 @@
-Game Count=5
+Game Count=12
 Experience for X:
-XXXO    O : 4
-XOO X   X : 2
- X        : 2
-XXOOXXXOO : 1
-XXXO   O  : 2
-X O X     : 4
-XXX O O   : 2
-XOX X O   : 1
-XXX   OO  : 4
-XXOOXXOXO : 2
-XX    O   : 2
-XXOOX X O : 1
-X   XO    : 2
-XO  XXOXO : 2
-XO  X O X : 2
-X X O     : -2
-XX     O  : 4
-X O XX  O : 2
+XXOO   X  : 2
 XO    X   : 2
-X X    O  : 2
-XOXOO X X : -2
-XOX O X   : -2
-X         : 14
-X X   O   : 2
+XO      X : -2
+X X   O   : 8
+XO OXX    : 2
+    X     : -2
+XXXOO     : 2
+XX O      : 4
+XO  O X X : -2
+XXOOX  XO : 2
+XX OOX XO : 2
+XOO  XX   : 2
+X X O     : 2
+XXX   OO  : 2
+XXO       : -2
+XO     X  : 2
+ X OX     : 2
+XX OXO OX : 2
+OX  XO X  : 2
+XXX O O   : 2
+XXXOO X O : 2
+XXXXOOOXO : 2
+X O X     : 2
+XXXO    O : 2
+XOO X   X : 2
+X   XO    : -2
+XXO    XO : -2
+XX      O : -2
+XXXO  OXO : 2
+OX X X  O : -2
+ X        : 0
+XXO   X O : -2
+XXXO  O   : 2
+X    X  O : 2
+XX O  X O : 2
+X         : 16
+X X X OO  : -2
+XO   X XO : 2
+OX X      : -2
 Experience for O:
-XX    OO  : -2
+XO   X  O : -2
+OX XOX  O : 2
+XO O X    : -2
+XOX O XO  : 2
+XXOO      : -2
+ X O      : -2
+XOO  XX O : -2
 X X   OO  : -2
-XO    X O : -4
-X   O     : 2
-XOX O     : 2
-XOXOOOX X : 2
-X O       : 1
-XX  O O   : -2
-X O X  O  : -2
-X O X   O : 1
+X   XO  O : 2
+XX O    O : -2
+OX  XO    : -2
+XO  O   X : 2
+X   O     : -2
+X X O O   : -2
+XO OXX O  : -2
+XOO   X   : -4
+X       O : -2
+XO  O X   : -2
+OX X    O : 2
+OX        : 4
 X O XO    : -2
-XOO XXOXO : -2
-X    O    : -10
-XO  X OXO : 1
-XX O   O  : -2
-XOXOO X   : 2
-O    X    : -2
+XXOO   XO : -2
+ O  X     : 2
+X X X OOO : 2
+XXO  OX O : 2
+XO        : -2
+ X     O  : -2
+X O       : -8
+XX OO X O : -2
+XXO  O XO : 2
+X    O    : -2
+XO  OX XO : -2
+XXO     O : 4
+XOX   O   : -2
+XX OOXOXO : -2

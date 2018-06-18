@@ -215,15 +215,51 @@ def drawWinLine(uArm, winLine):
     
     if winLine == "012":
         #put some code to draw a line through "012"
-        sendGCode(uArm, "G0 X160 Y0")
+        sendGCode(uArm, "G0 X162.5 Y0")
         sendGCode(uArm, "G0 Z0")
-        sendGCode(uArm, "G0 X160 Y75")
+        sendGCode(uArm, "G0 X162.5 Y75")
         
-    if winLine == "258":
+    elif winLine == "258":
         #puts some code to draw a line through "345"  
-        sendGCode(uArm, "G0 X150 Y60")
+        sendGCode(uArm, "G0 X150 Y62.5")
         sendGCode(uArm, "G0 Z0")
-        sendGCode(uArm, "G0 X220 Y60")
+        sendGCode(uArm, "G0 X225 Y62.5")
+        
+    elif winLine == "345":
+        #puts some code to draw a line through "345"  
+        sendGCode(uArm, "G0 X187.5 Y0")
+        sendGCode(uArm, "G0 Z0")
+        sendGCode(uArm, "G0 X187.5 Y75")
+        
+    elif winLine == "678":
+        #puts some code to draw a line through "345"  
+        sendGCode(uArm, "G0 X212.5 Y0")
+        sendGCode(uArm, "G0 Z0")
+        sendGCode(uArm, "G0 X212.5 Y75")
+        
+    elif winLine == "147":
+        #puts some code to draw a line through "345"  
+        sendGCode(uArm, "G0 X150 Y37.5")
+        sendGCode(uArm, "G0 Z0")
+        sendGCode(uArm, "G0 X225 Y37.5")
+        
+    elif winLine == "036":
+        #puts some code to draw a line through "345"  
+        sendGCode(uArm, "G0 X150 Y12.5")
+        sendGCode(uArm, "G0 Z0")
+        sendGCode(uArm, "G0 X225 Y12.5")
+        
+    elif winLine == "246":
+        #puts some code to draw a line through "345"  
+        sendGCode(uArm, "G0 X150 Y75")
+        sendGCode(uArm, "G0 Z0")
+        sendGCode(uArm, "G0 X225 Y0")
+        
+    elif winLine == "048":
+        #puts some code to draw a line through "345"  
+        sendGCode(uArm, "G0 X150 Y0")
+        sendGCode(uArm, "G0 Z0")
+        sendGCode(uArm, "G0 X225 Y75")
         
     
     #need code for the following winLines:  012, 345, 678, 036, 147, 258, 048, 246

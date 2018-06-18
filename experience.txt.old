@@ -1,0 +1,64 @@
+Game Count=8
+Experience for X:
+XXOOXX  O : 1
+XOO X   X : 2
+XXOOXXXOO : 1
+XXO OX    : -2
+XOXOX X O : 2
+XXX O O   : 2
+XX    O   : 2
+XXXO   O  : 2
+OX  X OX  : 2
+ X        : 2
+X X    O  : 2
+X X O     : 0
+X O X     : 4
+X O XX  O : 2
+XOXOO X X : -2
+XOX X O   : 1
+XX OOXX O : 2
+XXOOX X O : 1
+XO    X   : 4
+XX  O     : -2
+X X   O   : 2
+XOX O  X  : 2
+XX     O  : 4
+XOX O X   : -2
+OX  X     : 2
+XXOOXXOXO : 2
+    X     : 2
+X   XO    : 2
+X         : 16
+XXX   OO  : 4
+XXXO    O : 4
+XXXXOOOOX : 2
+XO  XXOXO : 2
+XO  X O X : 2
+XOXOX     : 2
+Experience for O:
+X    O    : -10
+XOXOOOX X : 2
+XX  O O   : -2
+X X   OO  : -2
+O    X    : -2
+XX O   O  : -2
+XO        : -2
+X O X   O : 1
+XXO OXO   : 2
+XXO O     : 2
+XOO XXOXO : -2
+XOX O OX  : -2
+XOXOO X   : 2
+X O       : 1
+XO    X O : -4
+OX  X O   : -2
+X   O     : 2
+X O XO    : -2
+XX    OO  : -2
+O   X     : 1
+XOXO      : -2
+X O X  O  : -2
+XX OOXXOO : -2
+XOX O     : 0
+XOXOX   O : -2
+XO  X OXO : 1

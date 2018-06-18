@@ -1,0 +1,246 @@
+Game Count=296
+Experience for X:
+XXXOO  OX : 4
+XX OOXXO  : 3
+OX  XX O  : 5
+XXXXOOOXO : 6
+X O     X : 30
+XXOOOXXXO : 1
+XO  X     : 72
+X O XXO   : 2
+XX   XO O : -2
+OXOXXXO   : 2
+ X        : 88
+XX OOXX O : 1
+X   O   X : 22
+XX     O  : 2
+XX O      : -2
+X O  X    : 2
+XOXOX X O : 16
+XOX O  X  : 3
+XXXOXOXOO : 2
+OX     X  : 0
+XO  XX  O : 2
+XXO X OXO : 4
+XO  X O X : 28
+X   OX    : 0
+XXX O O   : 4
+OX  XO X  : 16
+XXO O XOX : 7
+XX  OXXOO : 2
+XX  O     : 39
+XOXOX O X : 12
+XXXOXOO   : 6
+XXO X   O : -2
+XXOOOXXOX : 1
+XX  O  XO : 2
+XO  O X X : -2
+X   OX XO : 2
+XOO X   X : 6
+XO  OX X  : 2
+XOX X OXO : 1
+XXO O  X  : -2
+XXOOOX  X : -2
+OX XXX OO : 2
+XXOXO  OX : -2
+X X O X O : 48
+X O X     : 12
+X X O     : 2
+XOX X O   : 3
+X O    X  : -2
+XOO X X   : 20
+XOX O X   : -2
+XX  OO  X : -2
+XXXOO     : 8
+XX OX OXO : 6
+XXO X OOX : 6
+XO  X XO  : 2
+XX  OXOXO : -2
+O   XX    : 22
+XXXXO OO  : 10
+X X   O   : 2
+XOXOXOX   : 2
+XXXO   O  : 6
+OX XXO    : 2
+X   XO    : 42
+OXO X  X  : 10
+X O XX O  : 2
+XX OO   X : -2
+XXO XOOX  : 2
+XXOOOXX   : 1
+XX  XOOOX : 2
+X   X   O : 22
+XXXXOOOOX : 12
+XO  XXOXO : 1
+XXX O  O  : 2
+ X XO     : 2
+XX OXO    : 2
+XX  XOOXO : 2
+XO  X X O : 38
+XX   O    : 2
+XX O O X  : -2
+XXO OXX O : 5
+XO  X OX  : 8
+ X OX     : 32
+XXXXOOO   : 12
+OX  XX  O : 2
+XX OX  O  : 2
+XXX   O O : 2
+XO  X  OX : 10
+XXOXO     : -4
+X O X O X : 8
+OXOXXO X  : 4
+XXX O XOO : 8
+OX  X OX  : 10
+XX OXO OX : 2
+XO  XO X  : 2
+XXXXO O O : 6
+XXX O OXO : 4
+XO OX   X : 10
+XX OX XOO : 2
+XXXOO X O : 38
+XO  XO  X : 16
+XX      O : 2
+X         : 154
+OX  X     : 28
+XXXOO O X : 4
+XXO OXXO  : 2
+XXO XX OO : -4
+XOO XX    : 2
+X O XX  O : 8
+XOO X  X  : 4
+XXOOXXXOO : 1
+OX OX  X  : 24
+XOOOXX X  : 1
+    X     : 94
+XX OO X   : -2
+XX XOO OX : 2
+XXXOX O O : 26
+XOX X XOO : 2
+ X OXO X  : 2
+XXO XO OX : 4
+X X O OX  : 2
+XXO X  O  : -4
+XXO O X   : 33
+X O OX X  : -2
+XX  X O O : -2
+ X  X  O  : 5
+ X  O  X  : 0
+XX OX OOX : 2
+XXXOO XO  : 4
+XX  O OX  : -2
+XXXO  O   : 2
+XX  O  OX : 10
+XO    X   : 2
+XXOOO  XX : -2
+Experience for O:
+XX OX  OO : -2
+XX  O OOX : -2
+XXO OOX   : -10
+XOO OXX   : -2
+XXOOO   X : 2
+XO OOX X  : -2
+OXOXX O   : -2
+XX    O O : -2
+OXOXXO    : -2
+OX  X O   : -10
+XXO O X O : -10
+X O    XO : 2
+XOXOX   O : -16
+X O X  O  : -14
+OX        : -1
+XOO X     : -4
+XXOXOOO X : 2
+XOO X XO  : -6
+OX  X  O  : -1
+XOO     X : -2
+XX   O O  : -2
+XOO X X O : -26
+XX  X OOO : 2
+OO  X  X  : -4
+XOX O     : -1
+XX OOO  X : 2
+X X O  O  : -2
+OX XO     : -2
+XXOOOO XX : 2
+XOO XX  O : -6
+OX  X   O : -4
+OX OXX  O : -2
+ X  O     : -3
+XOO XO X  : -2
+OXO X     : -6
+XOOOXX    : -4
+XX  O O   : -4
+XX O   O  : -2
+O   X     : -11
+X       O : -1
+XOX O XO  : 6
+XXO OXOXO : 2
+XXO OXXOO : -6
+X O       : -30
+XX OXO  O : -2
+ X O      : -22
+X O X O   : -8
+XO        : -42
+XO  XO    : -16
+X   XO O  : -6
+O O X  X  : -4
+XO  X  O  : -14
+X    O    : -30
+ X OXO    : -2
+ X OX  O  : -4
+XO  OX XO : -2
+XO OX     : -4
+XOXOX O   : -12
+O   XX O  : -12
+XX OOXXOO : -4
+XOO O X X : -10
+XOOOX  X  : -2
+OO  XX    : -8
+XOX O X O : -40
+XO  OX    : -2
+XXO O XO  : -12
+X O OX    : 0
+XO   OX   : -2
+OX  O  X  : 0
+X O XXOO  : -2
+XXOXO O   : 4
+XX OO  OX : -4
+XX OOOX   : 2
+O    X    : -22
+XXOXOO OX : -2
+XXO O OX  : 4
+X O XX OO : -2
+XOXOXO    : -2
+XX OXOXOO : -2
+XO OXX O  : -2
+XOO   X   : -2
+XXO X  OO : 4
+XX  OO OX : -4
+OX OX     : -18
+X O XXO O : -4
+X   XO  O : -20
+OX  XO    : -6
+XXO O  OX : -1
+XOXOO  X  : -2
+XOO X OX  : -6
+X O X   O : 1
+OX  XXOO  : -2
+XO  X O   : -16
+X O OXOX  : 2
+ X     O  : -1
+XO  O   X : -11
+XO  X   O : -42
+XXOOOXO X : 2
+XXO XXOOO : 4
+ O  X     : -56
+X O O   X : -48
+XX OOO X  : 2
+XXO O     : -1
+XXO XO  O : 2
+XX O O    : 2
+XX   XOOO : 2
+XX OO     : -8
+X   O     : -1
+XXO OOXOX : -6
+XX  O OXO : -2
