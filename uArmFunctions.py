@@ -55,6 +55,13 @@ def goHome(uArm):
     '''Puts the uArm into the home position'''
     sendGCode(uArm, "G0 X150 Y0 Z0 F20000")    #pen up (if not already up)
     
+def goVision(uArm):
+    '''Puts the uArm into camera vision position'''
+    sendGCode(uArm, "G0 Z20")     #pen up
+    #sendGCode(uArm, "G0 X150 Y0 Z0 F20000")    #pen up (if not already up)
+    
+    sendGCode(uArm, "G0 X70 Y90 Z20") #position for best camera view
+    
 def drawBoard(uArm):
     '''Draws the board'''
     sendGCode(uArm, "G0 X150 Y0 Z10")  
